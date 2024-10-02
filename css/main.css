@@ -343,7 +343,8 @@ body {
 
 #about .about__image {
     position: relative; 
-    max-width: 350px;   
+    max-width: 350px;  
+    width: 100%; 
     height: 100% ;
     box-shadow: 0 0 10px rgb(0,0,0,0.3 );
     padding: 20px ;
