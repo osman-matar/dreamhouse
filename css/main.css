@@ -115,15 +115,17 @@ button {
     padding-left: 15px;
     padding-right: 15px ;
 }
-* {
-    margin: 0;
-    padding: 0;
-/*     box-sizing: border-box; */
-/*     -moz-box-sizing: border-box; */
-/*     -webkit-box-sizing: border-box; */
+*, *:before, *:after {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box !important;
+	-moz-box-sizing: border-box !important;
+	-ms-box-sizing: border-box !important;
+	box-sizing: border-box !important;
     text-decoration: none;
     list-style: none;
 }
+
 html {
     scroll-behavior: smooth; 
 }
