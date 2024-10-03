@@ -228,7 +228,6 @@ body {
 .nav__bar-icons .icon  {
     background-color: var(--white-color);
     padding: 10px ;
-    font-weight: 200 ;
     font-size: 16px ;
     box-shadow: 0 3px 10px var(--footer-text-color);
 }
