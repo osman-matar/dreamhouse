@@ -841,10 +841,9 @@
             </div>
         </div>
     </sectio>
-        <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
     <script>
-        window.addEventListener("load", () => {
-            const scrollRevealOption = {
+            let scrollRevealOption = {
                 distance: "50px",
                 origin: "top",
                 duration: 1000
@@ -876,7 +875,6 @@
             ScrollReveal().reveal('.explore', { ...scrollRevealOption, origin: "bottom", interval: 1000 });
             // footer
             ScrollReveal().reveal('.footer .feats  ', { ...scrollRevealOption, origin: "bottom", interval: 500, delay: 1000 });
-        })
     </script>
     <script src="js/all.min.js"></script>
     <script src="js/main.js"></script>
