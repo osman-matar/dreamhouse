@@ -105,6 +105,10 @@ button {
     transform: translateX(0); 
 }
 
+#cart .cart-icon {
+	font-size: 2.5rem;
+}
+
 
 
 /* utilites */
